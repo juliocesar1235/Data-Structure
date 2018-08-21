@@ -5,8 +5,7 @@ using namespace std;
 
 
 int main(int argc, char const *argv[]) {
-  double one[10],two[5][5], *ptr, value=1.0;
-  ptr = one + 3;
-  cout<<ptr;
+  char *Cadena = "1234567890abcdefghi";
+  std::cout << (Cadena) << '\n';
   return 0;
 }
