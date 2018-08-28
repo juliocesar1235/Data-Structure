@@ -1,0 +1,26 @@
+In file included from /Users/juliogutierrezbriones/Desktop/3ºSemestre/DataStructure/programing/LinklistsPractice.cpp:3:
+In file included from /Users/juliogutierrezbriones/Desktop/3ºSemestre/DataStructure/programing/LinkedList.h:1:
+/Users/juliogutierrezbriones/Desktop/3ºSemestre/DataStructure/programing/Node.h:33:10: error: no viable conversion from returned value of type 'Node<std::__1::basic_string<char> >' to function return type 'Node<std::__1::basic_string<char> > *'
+  return *next;
+         ^~~~~
+/Users/juliogutierrezbriones/Desktop/3ºSemestre/DataStructure/programing/LinkedList.h:100:18: note: in instantiation of member function 'Node<std::__1::basic_string<char> >::getNext' requested here
+    head = head->getNext();
+                 ^
+/Users/juliogutierrezbriones/Desktop/3ºSemestre/DataStructure/programing/LinkedList.h:36:3: note: in instantiation of member function 'LinkedList<std::__1::basic_string<char> >::deleteHelper' requested here
+  deleteHelper();
+  ^
+/Users/juliogutierrezbriones/Desktop/3ºSemestre/DataStructure/programing/LinklistsPractice.cpp:7:22: note: in instantiation of member function 'LinkedList<std::__1::basic_string<char> >::~LinkedList' requested here
+  LinkedList<string> miLista;
+                     ^
+In file included from /Users/juliogutierrezbriones/Desktop/3ºSemestre/DataStructure/programing/LinklistsPractice.cpp:3:
+In file included from /Users/juliogutierrezbriones/Desktop/3ºSemestre/DataStructure/programing/LinkedList.h:1:
+/Users/juliogutierrezbriones/Desktop/3ºSemestre/DataStructure/programing/Node.h:33:10: error: no viable conversion from returned value of type 'Node<int>' to function return type 'Node<int> *'
+  return *next;
+         ^~~~~
+/Users/juliogutierrezbriones/Desktop/3ºSemestre/DataStructure/programing/LinkedList.h:59:18: note: in instantiation of member function 'Node<int>::getNext' requested here
+    while (curr->getNext() != NULL) {
+                 ^
+/Users/juliogutierrezbriones/Desktop/3ºSemestre/DataStructure/programing/LinklistsPractice.cpp:35:12: note: in instantiation of member function 'LinkedList<int>::addLast' requested here
+  tuLista->addLast(30);
+           ^
+2 errors generated.
